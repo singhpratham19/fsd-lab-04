@@ -1,0 +1,36 @@
+.overlay {
+  align-items: center;
+  background-color: rgba(18, 52, 59, 0.6);
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  padding: 16px;
+  position: fixed;
+}
+
+.modal {
+  background-color: white;
+  border-radius: 8px;
+  max-width: 400px;
+  overflow-wrap: anywhere;
+  padding: 20px;
+  width: 100%;
+}
+
+.modal h2 {
+  margin: 0 0 8px;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.cancel {
+  background-color: #6b8285;
+}
+
+.delete {
+  background-color: #b8432f;
+}
